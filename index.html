@@ -17,70 +17,76 @@
     </head>
     <body>
         
-        <div class="jumbotron text-center">
+        <!-- <div class="jumbotron text-center">
             <h1>Kokeilua Bootstrapilla</h1>
             <p>Kokeile muutella sivun kokoa nähdäksesi muutokset!</p> 
-        </div>
+        </div> -->
 		
 		<div id="demo" class="carousel slide" data-ride="carousel">
+			<!-- Indicators -->
+			<ul class="carousel-indicators">
+				<li data-target="#demo" data-slide-to="0" class="active"></li>
+				<li data-target="#demo" data-slide-to="1"></li>
+				<li data-target="#demo" data-slide-to="2"></li>
+			</ul>
 
-  <!-- Indicators -->
-  <ul class="carousel-indicators">
-    <li data-target="#demo" data-slide-to="0" class="active"></li>
-    <li data-target="#demo" data-slide-to="1"></li>
-    <li data-target="#demo" data-slide-to="2"></li>
-  </ul>
+			<!-- The slideshow -->
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="kuvia/kuva1.jpg" alt="Tähtitaivas ja kalliomuodostelma">
+					<div class="carousel-caption">
+						<h3>Kuva 1</h3>
+						<p>Siisti avaruuskuva</p>
+					</div>
+				</div>
+			
+				<div class="carousel-item">
+					<img src="kuvia/kuva2.jpg" alt="Tähtikuvio taivaalla">
+					<div class="carousel-caption">
+						<h3>Kuva 2</h3>
+						<p>Toinen upea otos avaruudesta</p>
+					</div>
+				</div>
+			
+				<div class="carousel-item">
+					<img src="kuvia/kuva3.jpeg" alt="Tähtitaivas vuorimaisemassa">
+					<div class="carousel-caption">
+						<h3>Kuva 3</h3>
+						<p>Kolmas utopistinen kuva</p>
+					</div>
+				</div>
+			</div>
 
-  <!-- The slideshow -->
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-		<img src="kuvia/kuva1.jpg" alt="Los Angeles">
-		<div class="carousel-caption">
-		<h3>Los Angeles</h3>
-		<p>We had such a great time in LA!</p>
-  </div>
-    </div>
-    <div class="carousel-item">
-      <img src="kuvia/kuva2.jpg" alt="Chicago">
-	  <div class="carousel-caption">
-		<h3>Los Angeles</h3>
-		<p>We had such a great time in LA!</p>
-  </div>
-    </div>
-    <div class="carousel-item">
-      <img src="kuvia/kuva3.jpeg" alt="New York">
-	  <div class="carousel-caption">
-		<h3>Los Angeles</h3>
-		<p>We had such a great time in LA!</p>
-  </div>
-    </div>
-  </div>
+			<!-- Left and right controls -->
+			<a class="carousel-control-prev" href="#demo" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</a>
+			<a class="carousel-control-next" href="#demo" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</a>
 
-  <!-- Left and right controls -->
-  <a class="carousel-control-prev" href="#demo" data-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </a>
-  <a class="carousel-control-next" href="#demo" data-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </a>
-
-</div>
+		</div>
                     
          <div class="container">
             <div class="row">
-                <div class="col-sm-5">
+                <div class="col-sm-3 bg-primary text-white">
                     <h3>Sarake 1</h3>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
                     <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-3 bg-success text-white">
                     <h3>Sarake 2</h3>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
                     <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-3 bg-danger text-white">
                     <h3>Sarake 3</h3>        
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+                    <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
+                </div>
+				<div class="col-sm-3">
+                    <h3>Sarake 4</h3>        
+                    <img src="kuvia/kuva1.jpg" class="img-thumbnail" alt="Tähtitaivas ja kalliomuodostelma">
                     <p>Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>
                 </div>
             </div>
